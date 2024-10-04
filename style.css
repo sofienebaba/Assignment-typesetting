@@ -82,8 +82,15 @@ section ol li{
     margin-left:1rem;
 }
 section p a::after {
-    content: '\1F517';
+    content: '';
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
     margin-left: 0.5rem;
+    background-image: url("external-link-52.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle; 
 }
 
 aside a {
